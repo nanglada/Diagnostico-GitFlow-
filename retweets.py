@@ -11,6 +11,6 @@ def most_retweets(file):
                 retweeted[j][1] = i["content"]
                 break
     print(f"Los 10 tweets más retweeteados son:")
-    for i in retweeted:
-        print(i[1])
+    for i in range(0, len(retweeted)):
+        print(f"Número {i}: {retweeted[i][1]}\n")
 most_retweets("farmers-protest-tweets-2021-03-5.json")
