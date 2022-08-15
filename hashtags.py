@@ -13,4 +13,3 @@ def most_hashtags(file):
     for i in range(0, len(best)):
         print(f"Número {i + 1}: {best[i][0]} con {best[i][1]} tweets")
 
-most_hashtags("farmers-protest-tweets-2021-03-5.json")

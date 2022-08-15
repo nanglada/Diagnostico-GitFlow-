@@ -11,5 +11,3 @@ def best_users(file):
     best = best_users.most_common(10)
     for i in range(0, len(best)):
         print(f"Número {i + 1}: {best[i][0]} con {best[i][1]} tweets")
-
-best_users("farmers-protest-tweets-2021-03-5.json")
